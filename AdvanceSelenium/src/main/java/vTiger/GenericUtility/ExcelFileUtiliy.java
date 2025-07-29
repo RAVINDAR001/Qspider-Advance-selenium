@@ -23,7 +23,7 @@ public class ExcelFileUtiliy {
 	
 	public String toReadDataFromExcel(String sheetname,int row,int cell) throws EncryptedDocumentException, IOException {
 		
-		FileInputStream fis =new FileInputStream(".\\src\\test\\resources\\testDataA1.xlsx");
+		FileInputStream fis =new FileInputStream("C:\\Users\\kumar\\git\\repository25\\AdvanceSelenium\\src\\test\\resources\\pcat.xlsx");
 		Workbook wb=WorkbookFactory.create(fis);
 		String work = wb.getSheet(sheetname).getRow(row).getCell(cell).toString();
 		return work;

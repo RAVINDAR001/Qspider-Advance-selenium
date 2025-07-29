@@ -14,15 +14,6 @@
       <![CDATA[login sucessfullt]]>
     </line>
     <line>
-      <![CDATA[navigated to org page]]>
-    </line>
-    <line>
-      <![CDATA[navigated to create org  page]]>
-    </line>
-    <line>
-      <![CDATA[navigated to org inf page]]>
-    </line>
-    <line>
       <![CDATA[logout sucsessfully]]>
     </line>
     <line>
@@ -35,22 +26,19 @@
       <![CDATA[---database connection disconnected--]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-24T16:20:01 IST" name="Default suite" finished-at="2025-07-24T16:21:18 IST" duration-ms="76740">
+  <suite started-at="2025-07-25T16:48:45 IST" name="Default suite" finished-at="2025-07-25T16:49:02 IST" duration-ms="17509">
     <groups>
-      <group name="Regerassion">
-        <method signature="toCreateOrganizationTest.toCreateOrganizationTest_002()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" name="toCreateOrganizationTest_002" class="vTiger.organisationTest.toCreateOrganizationTest"/>
-      </group> <!-- Regerassion -->
     </groups>
-    <test started-at="2025-07-24T16:20:01 IST" name="Default test" finished-at="2025-07-24T16:21:18 IST" duration-ms="76740">
-      <class name="vTiger.organisationTest.toCreateOrganizationTest">
-        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:20:01 IST" name="beforeSuiteConfig" finished-at="2025-07-24T16:20:01 IST" duration-ms="5" status="PASS">
+    <test started-at="2025-07-25T16:48:45 IST" name="Default test" finished-at="2025-07-25T16:49:02 IST" duration-ms="17509">
+      <class name="vTiger.Product.ToCreatProductPage">
+        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:48:45 IST" name="beforeSuiteConfig" finished-at="2025-07-25T16:48:45 IST" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---Data base connection Estabilishes---]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuiteConfig -->
-        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:20:01 IST" name="beforeClassConfig" finished-at="2025-07-24T16:20:15 IST" duration-ms="14035" status="PASS">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:48:45 IST" name="beforeClassConfig" finished-at="2025-07-25T16:48:49 IST" duration-ms="3919" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser got launch]]>
@@ -60,34 +48,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClassConfig -->
-        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:20:15 IST" name="beforeMethodConfig" finished-at="2025-07-24T16:20:28 IST" duration-ms="12858" status="PASS">
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:48:49 IST" name="beforeMethodConfig" finished-at="2025-07-25T16:48:52 IST" duration-ms="3065" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login sucessfullt]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethodConfig -->
-        <test-method signature="toCreateOrganizationTest_002()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:20:28 IST" name="toCreateOrganizationTest_002" finished-at="2025-07-24T16:21:15 IST" duration-ms="46308" status="PASS">
+        <test-method signature="tocreateProductPage()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:48:52 IST" name="tocreateProductPage" finished-at="2025-07-25T16:49:00 IST" duration-ms="8282" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[navigated to org page]]>
-            </line>
-            <line>
-              <![CDATA[navigated to create org  page]]>
-            </line>
-            <line>
-              <![CDATA[navigated to org inf page]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- toCreateOrganizationTest_002 -->
-        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:21:15 IST" name="afterMethodConfig" finished-at="2025-07-24T16:21:17 IST" duration-ms="2965" status="PASS">
+        </test-method> <!-- tocreateProductPage -->
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:49:00 IST" name="afterMethodConfig" finished-at="2025-07-25T16:49:02 IST" duration-ms="1823" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout sucsessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethodConfig -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:21:17 IST" name="afterClass" finished-at="2025-07-24T16:21:18 IST" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:49:02 IST" name="afterClass" finished-at="2025-07-25T16:49:02 IST" duration-ms="364" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed secssesfully]]>
@@ -97,14 +76,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:vTiger.organisationTest.toCreateOrganizationTest@7c7b252e]" started-at="2025-07-24T16:21:18 IST" name="afterSuitConfig" finished-at="2025-07-24T16:21:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:vTiger.Product.ToCreatProductPage@7c7b252e]" started-at="2025-07-25T16:49:02 IST" name="afterSuitConfig" finished-at="2025-07-25T16:49:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---database connection disconnected--]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterSuitConfig -->
-      </class> <!-- vTiger.organisationTest.toCreateOrganizationTest -->
+      </class> <!-- vTiger.Product.ToCreatProductPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
