@@ -4,6 +4,13 @@
   <artifactId>AdvanceSelenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+
+	  <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.32</version> <!-- or the latest -->
+    <scope>provided</scope>
+</dependency>
 	  
 	  
 	  
