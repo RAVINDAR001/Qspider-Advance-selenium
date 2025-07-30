@@ -2,6 +2,8 @@ package vTiger.ContactTests;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.fail;
 
 import java.io.IOException;
