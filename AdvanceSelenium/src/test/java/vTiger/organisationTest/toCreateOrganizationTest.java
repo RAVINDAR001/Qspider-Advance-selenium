@@ -1,5 +1,7 @@
 package vTiger.organisationTest;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -39,7 +41,7 @@ public class toCreateOrganizationTest extends BaseClass {
 		ExcelFileUtiliy eutil =new ExcelFileUtiliy();
 		JavaFileUtility jutil=new JavaFileUtility();
 		
-		String orgname = eutil.toReadDataFromExcel("Organization", 1, 2)+jutil.toGetRandomNumber();
+		String orgname = eutil.toReadDataFromExcel1("Organization", 1, 2)+jutil.toGetRandomNumber();
 		CON.getCreateOrganizationName1().sendKeys(orgname);
 		CON.getSaveButton().click();
 		
@@ -47,7 +49,7 @@ public class toCreateOrganizationTest extends BaseClass {
 		Reporter.log("navigated to org inf page", true);
 		OrganizationInformationPage oip=new OrganizationInformationPage(driver);
 		String name = oip.getOrganizatininfo().getText();
-		Assert.assertTrue(name.contains(orgname));
+		AssertJUnit.assertTrue(name.contains(orgname));
 		
 		
 		

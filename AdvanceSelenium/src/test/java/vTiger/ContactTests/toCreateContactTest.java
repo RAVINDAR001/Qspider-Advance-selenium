@@ -1,5 +1,7 @@
 package vTiger.ContactTests;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.fail;
 
 import java.io.IOException;
@@ -40,7 +42,7 @@ public class toCreateContactTest extends BaseClass {
 		ExcelFileUtiliy eutil = new ExcelFileUtiliy();
 		
 		
-		String LASTNAME = eutil.toReadDataFromExcel("Contacts", 1, 2);
+		String LASTNAME = eutil.toReadDataFromExcel1("Contacts", 1, 2);
 		CCN.getCreateContactName().sendKeys(LASTNAME);
 		CCN.getSaveButton().click();
 		//Assert.fail();
@@ -54,7 +56,7 @@ public class toCreateContactTest extends BaseClass {
 			Reporter.log(name + " failled to create contacts", true);
 	//	}
 			
-			Assert.assertTrue(name.contains(LASTNAME));
+			AssertJUnit.assertTrue(name.contains(LASTNAME));
 
 	}
 }
