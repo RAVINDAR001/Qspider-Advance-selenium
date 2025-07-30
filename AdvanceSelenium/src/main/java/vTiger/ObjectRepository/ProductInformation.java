@@ -17,7 +17,7 @@ public class ProductInformation {
 	@FindBy(xpath = "//input[@name=\"productname\"]")
 	private WebElement productname;
 
-	@FindBy(xpath = "(//input[@title=\"Save [Alt+S]\"])[2]")
+	@FindBy(xpath = "(//input[@title=\"Save [Alt+S]\"])[1]")
 	private WebElement toclicksavebutton;
 	
 	@FindBy(xpath = "//select[@name=\"productcategory\"]")

@@ -81,7 +81,7 @@ public class BaseClass {
 	public void afterClass() {
 		Reporter.log("Browser closed secssesfully", true);
 		driver.quit();
-		Reporter.log("browser close sucsessfully", true);
+		//Reporter.log("browser close sucsessfully", true);
 
 	}
 

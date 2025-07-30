@@ -25,7 +25,6 @@ public class toCreateOrganizationTest extends BaseClass {
 		
 		HomePage hp=new HomePage(driver);
 		hp.getOrganizations().click();
-		
 		Reporter.log("navigated to org page", true);
 		
 		OrganizationPage op = new OrganizationPage(driver);
